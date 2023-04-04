@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(./poke-pics/falling-pokeballs.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    /* border: 3px solid lightblue; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    /* border: 2px solid yellow; */
+    /* margin-top: 318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    font-family: 'Press Start 2P', cursive;
+    color: #FFCB05;
+    font-size: 36pt;
+}
+
+.pick-starter {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Concert One', cursive;
+    color: #3b4cca;
+    font-size: 23pt;
+}
+
+.pokedex {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Concert One', cursive;
+    color: #cc0000;
+    font-size: 23pt;
+}
+
+.about {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Concert One', cursive;
+    color: black;
+    font-size: 23pt;
+}
+
+.pick-starter:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: large;
+    text-shadow: 1px 1px 5px #3b4cca;
+}
+
+.pokedex:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: large;
+    text-shadow: 1px 1px 5px #cc0000;
+}
+
+.about:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: large;
+    text-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-position: 70%;
+    }
+}
