@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #CC0000;
+
+}
+
+.page-container {
+    /* border: 3px solid blue; */
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    border: 3px solid black;
+    background-color: black;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #FFCB05;
+    font-size: 25pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#back-button {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#Dr-Oak {
+    /* border: 3px solid yellow; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+form {
+    /* border: 3px solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: ;
+    font-family: "concert one", cursive;
+    margin: 10px;
+    font-size: 18pt;
+}
+
+#starter-info {
+    /* border: 3px solid black; */
+    /* margin: 2px; */
+}
+
+.starter-info-item {
+    list-style: none;
+    font-family: "concert one", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    color: #FFCB05;
+}
+
+.starter-info-img {
+    /* border: 3px solid grey; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+}
+
+#choose-pokemon {
+    /* border: 3px solid brown; */
+    margin-top: -30px;
+    border-radius: 10px;
+    color: blue;
+    background-color:yellow;
+}
+
+.starter-name {
+    font-family: "concert one", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+    margin-top: -50px;
+    color: #FFCB05
+}

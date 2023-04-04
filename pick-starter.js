@@ -57,11 +57,18 @@ const fillStarterInfo = (pokemonData, pokemonName) => {
 
     let image = pokemonData.sprites.front_default
     let pokeImage = document.createElement(`img`);
+    pokeImage.className = `starter-info-img`
     pokeImage.src = image;
     pokeImage.setAttribute("alt", pokemonName);
     starterInfo.prepend(pokeImage);
     
     if (pokemonName === 'pikachu') {
-        window.alert('Pikachu can only be chosen by Ash. If you are not Ash, please select another Pokemon.');
+        window.alert('Pikachu can only be chosen by Ash Ketchum. If you are not Ash, please select another Pokemon.');
     }
+}
+
+window.onload = () => {
+    document.getElementById("back-button").addEventListener("click", () => {
+        window.open("home-page.html", "_self");
+    });
 }

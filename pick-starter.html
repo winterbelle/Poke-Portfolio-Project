@@ -10,57 +10,59 @@
 </head>
 <body>
     <div class="page-container">
+        <button id="back-button">BACK</button>
         <header>
             <h1>Pick Your Starter</h1>
         </header>
-        <img alt="Dr.Oak asking you to pick your starter pokemon" src="https://static.wikia.nocookie.net/essentialsdocs/images/3/3a/ChoosingStarter.png/revision/latest?cb=20190219205247"
+        <img id="Dr-Oak" alt="Dr.Oak asking you to pick your starter pokemon" src="https://static.wikia.nocookie.net/essentialsdocs/images/3/3a/ChoosingStarter.png/revision/latest?cb=20190219205247"
         <br><br>
 <!-- This is a list of Pokemon Starters -->
-            <form class="starter-list">
-                <label for="starter-pokemon">Choose a starter Pokemon:</label>
-                <select name="pokemon" id="pokemon">
-                    <option value="Defualt">---</option>
-                    <optgroup label="Grass Type">
-                        <option value="Bulbasaur">Bulbasaur</option>
-                        <option value="Chiqorita">Chiqorita</option>
-                        <option value="Treecko">Treecko</option>
-                        <option value="Turtwig">Turtwig</option>
-                        <option value="Snivy">Snivy</option>
-                        <option value="Chespin">Chespin</option>
-                        <option value="Rowlett">Rowlett</option>
-                        <option value="Grookey">Grookey</option>
-                        <option value="Sprigatito">Sprigatito</option>
-                    </optgroup>
-                    <optgroup label="Fire Type">
-                        <option value="Charmander">Charmander</option>
-                        <option value="Cyndaquil">Cyndaquil</option>
-                        <option value="Torchic">Torchic</option>
-                        <option value="Chimchar">Chimchar</option>
-                        <option value="Tepig">Tepig</option>
-                        <option value="Fennekin">Fennekin</option>
-                        <option value="Litten">Litten</option>
-                        <option value="Scorbunny">Scorbunny</option>
-                        <option value="Fuecoco">Fuecoco</option>
-                    </optgroup>
-                    <optgroup label="Water Type">
-                        <option value="Squirtle">Squirtle</option>
-                        <option value="Totodile">Totodile</option>
-                        <option value="Mudkip">Mudkip</option>
-                        <option value="Piplup">Piplup</option>
-                        <option value="Oshawott">Oshawott</option>
-                        <option value="Froakie">Froakie</option>
-                        <option value="Popplio">Popplio</option>
-                        <option value="Sobble">Sobble</option>
-                        <option value="Quaxly">Quaxly</option>
-                    </optgroup>
+        <form class="starter-list">
+            <label for="starter-pokemon">Choose your starter Pokemon:</label>
+            <select name="pokemon" id="pokemon">
+                <option value="Defualt">---</option>
+                <optgroup label="Grass Type">
+                    <option value="bulbasaur">Bulbasaur</option>
+                    <option value="chikorita">Chikorita</option>
+                    <option value="treecko">Treecko</option>
+                    <option value="turtwig">Turtwig</option>
+                    <option value="snivy">Snivy</option>
+                    <option value="chespin">Chespin</option>
+                    <option value="rowlet">Rowlet</option>
+                    <option value="grookey">Grookey</option>
+                    <option value="sprigatito">Sprigatito</option>
+                </optgroup>
+                <optgroup label="Fire Type">
+                    <option value="charmander">Charmander</option>
+                    <option value="cyndaquil">Cyndaquil</option>
+                    <option value="torchic">Torchic</option>
+                    <option value="chimchar">Chimchar</option>
+                    <option value="tepig">Tepig</option>
+                    <option value="fennekin">Fennekin</option>
+                    <option value="litten">Litten</option>
+                    <option value="scorbunny">Scorbunny</option>
+                    <option value="fuecoco">Fuecoco</option>
+                </optgroup>
+                <optgroup label="Water Type">
+                    <option value="squirtle">Squirtle</option>
+                    <option value="totodile">Totodile</option>
+                    <option value="mudkip">Mudkip</option>
+                    <option value="piplup">Piplup</option>
+                    <option value="oshawott">Oshawott</option>
+                    <option value="froakie">Froakie</option>
+                    <option value="popplio">Popplio</option>
+                    <option value="sobble">Sobble</option>
+                    <option value="quaxly">Quaxly</option>
+                </optgroup>
 <!-- No one will actually be able to choose Pikachu as a starter. Only Ash can choose Pikachu -->
-                    <optgroup label="Special Pokemon">
-                        <option value="Pikachu">Pikachu</option>
-                    </optgroup>
-                </select>
-                <br><br>
-                <button>Choose Pokemon</button>
-            </form>
+                <optgroup label="Special Pokemon">
+                    <option value="pikachu">Pikachu</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <button id="choose-pokemon">Choose Pokemon</button>
+        </form>
+        <div id="starter-info"></div>
     </div>
 </body>
 </html>
