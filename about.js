@@ -25,6 +25,6 @@ function plusSlides(n) {
 
   window.onload = () => {
     document.getElementById("back-button").addEventListener("click", () => {
-        window.open("home-page.html", "_self");
+        window.open("index.html", "_self");
     });
 }
