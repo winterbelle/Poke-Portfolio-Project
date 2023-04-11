@@ -43,6 +43,7 @@ const fillStarterInfo = (pokemonData, pokemonName) => {
     starterInfo.append(pokemonAbilities);
 
     let weight = pokemonData.weight * .1;
+    weight = weight.toFixed(1)
     let pokemonWeight = document.createElement(`li`);
     pokemonWeight.className = `starter-info-item`;
     pokemonWeight.innerHTML = `Weight: ${weight} kg`;

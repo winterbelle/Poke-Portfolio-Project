@@ -43,16 +43,16 @@ body{
     font-size: 23pt;
 }
 
-.pokedex {
+/* .pokedex { */
     /* border: 2px solid red; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     font-family: 'Concert One', cursive;
     color: #cc0000;
-    font-size: 23pt;
-}
+    font-size: 23pt; */
+/* } */
 
 .about {
     /* border: 2px solid black; */
@@ -72,12 +72,12 @@ body{
     text-shadow: 1px 1px 5px #3b4cca;
 }
 
-.pokedex:hover {
-    cursor: pointer;
+/* .pokedex:hover { */
+    /* cursor: pointer;
     transition: 0.5s;
     font-size: large;
-    text-shadow: 1px 1px 5px #cc0000;
-}
+    text-shadow: 1px 1px 5px #cc0000; */
+/* } */
 
 .about:hover {
     cursor: pointer;

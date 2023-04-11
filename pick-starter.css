@@ -33,6 +33,7 @@ header {
 #back-button {
     border: 1px solid black;
     margin: 5px;
+    background-color: yellow;
 }
 
 #Dr-Oak {
@@ -54,10 +55,10 @@ form {
     font-size: 18pt;
 }
 
-#starter-info {
+/* #starter-info { */
     /* border: 3px solid black; */
     /* margin: 2px; */
-}
+/* } */
 
 .starter-info-item {
     list-style: none;
@@ -95,4 +96,11 @@ form {
     font-size: 18pt;
     margin-top: -50px;
     color: #FFCB05
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-position: 70%;
+    }
+    
 }
